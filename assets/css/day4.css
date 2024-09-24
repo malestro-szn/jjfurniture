@@ -1,0 +1,57 @@
+.text{
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+    text-align: center;
+    text-decoration: underline;
+    text-transform: capitalize;
+
+    line-height: 2;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    white-space: nowrap;
+    white-space: wrap;
+}
+
+.box{
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: darkblue;
+    border-left-style:dashed ;
+    border-right-color:gold ;
+    border: 10px solid blue;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 40px;
+    border-radius: 100px;
+
+    margin-bottom: 250px;
+    margin-left: 20px;
+    margin-right: 10px;
+     margin-top: 10px;
+
+    margin: 50px;
+    padding: 50px;
+
+    margin: 20px 30px ;
+    margin: 20px 24px 30px 40px;
+    margin: 20px auto;
+    box-shadow: -10px 20px 50px -10px gray,
+                -15px 30px 40px yellow,
+                -15px 30px 40px blue,
+                -15px 30px 40px red,
+                -15px 30px 40px green;
+
+
+    text-align: center;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-shadow: -10px 10px 5px gray;
+}
+/* box-shadow: x,y,blur,spread,colour; */
+/* assignment website"unsplash" or "pexels" or "freepik".com */

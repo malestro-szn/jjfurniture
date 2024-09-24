@@ -1,0 +1,32 @@
+.body{
+    border: 100px solid rgb(184, 6, 65);
+    padding: 30px;
+    width: 800px;
+    margin: auto;
+
+}
+.body p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-style:normal;
+    text-align: center;
+}
+.body form{
+    font-size: large;
+}
+.body button{
+    width: 75px;
+    border: none;
+    height: 25px;
+    background-color: black;
+    border-radius: 1000vmax;
+    color: white; 
+    box-shadow: gray;  
+}
+.body button:hover{
+    background-color:blue;
+}
+.body input{
+    font-display:brown;
+}

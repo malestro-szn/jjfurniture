@@ -1,0 +1,71 @@
+:root{
+    --main--: brown;
+    --optional--:orangered;
+    --wlg:100px;
+    --wsm:50px;
+}
+/* Descendant selector */
+.wrap ul {
+    border: 10px solid var(--optional--);
+}
+
+/* child selector */
+.wrap > ul {
+    border: 5px solid var(--main--);
+
+}
+
+.wrap li {
+    color: var(--main--);
+}
+
+.wrap > ul > li {
+    color:var(--optional--);
+}
+.first{
+    color: var(--optional--) !important;
+}
+/* Adjacent sibling */
+.first + li{
+    color: var(--main--) !important;
+
+}
+/* General sibling */
+
+.first ~ li{
+    color: var(--main--);
+}
+/* first and last child selector */
+.wrap > ul  > li > ul >li{
+    border-bottom: 1px solid var(--optional--);
+}
+.wrap > ul > li > ul > li :first-child{
+    border: none;
+} 
+.wrap > ul > li > ul > li :last-child{
+    border: none;
+}
+
+.wrapper{
+    margin-bottom: 100px;
+}
+
+.wrapper > button{
+    border: none;
+    background-color: var(--optional--);
+    width: 100px;
+    height: 35px;
+    text-transform: capitalize;
+    border-radius: 1000vmax;
+}
+
+.wrapper > button:hover{
+    background-color: var(--main--);
+}
+.wrapper > button:active{
+    background-color: lawngreen;
+}
+.wrapper > button:focus{
+    width: var(--wlg);
+}
+/* colourhunt */
